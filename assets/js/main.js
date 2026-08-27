@@ -17,3 +17,8 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
+
+// Keep the DNA test CTA consistent across all pages.
+document.querySelectorAll('a[href="https://www.nu3gen.eu/dna-testy"]').forEach(link => {
+  link.href = 'https://www.nu3gen.eu/dna-sety';
+});
