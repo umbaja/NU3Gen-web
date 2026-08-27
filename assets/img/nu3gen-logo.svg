@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" role="img" aria-labelledby="title desc">
+  <title id="title">Nu3Gen</title>
+  <desc id="desc">NU3Gen wordmark in blue and dark blue inspired by the current NU3Gen visual identity.</desc>
+  <text x="5" y="50" font-family="Trebuchet MS,Segoe UI,Arial,sans-serif" font-size="52" font-weight="300" letter-spacing="-2">
+    <tspan fill="#3F98BD">Nu</tspan><tspan fill="#263F4A">3</tspan><tspan fill="#3F98BD">Gen</tspan>
+  </text>
+  <text x="244" y="19" font-family="Arial,sans-serif" font-size="10" fill="#3F98BD">®</text>
+</svg>
