@@ -53,14 +53,14 @@
   transition: transform .25s ease, filter .25s ease;
 }
 
-/* Radoslav: bust framing matched to the rest of the team. */
+/* Radoslav: card-ready crop with white background, no additional zoom. */
 .team-grid--photos .person:nth-child(1) .person-photo {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
-  transform: scale(1.42) translateY(3%);
-  transform-origin: center 24%;
+  transform: none;
+  transform-origin: center center;
 }
 
 /* Remaining portraits keep their individual bust framing. */
