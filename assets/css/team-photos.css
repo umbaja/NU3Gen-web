@@ -53,7 +53,7 @@
   transition: transform .25s ease, filter .25s ease;
 }
 
-/* Radoslav: white-background portrait with matched bust framing and safe headroom. */
+/* Radoslav: keep approved portrait unchanged. */
 .team-grid--photos .person:nth-child(1) .person-photo-wrap::after {
   display: none;
 }
@@ -68,13 +68,15 @@
   -webkit-filter: grayscale(100%) contrast(1.01) brightness(1.02) !important;
 }
 
-/* Kasarda and Vietoris: prepared card-ready portraits with white background. */
+/* Kasarda, Vietoris and Bariak: prepared card-ready portraits with white background. */
 .team-grid--photos .person:nth-child(2) .person-photo-wrap::after,
-.team-grid--photos .person:nth-child(3) .person-photo-wrap::after {
+.team-grid--photos .person:nth-child(3) .person-photo-wrap::after,
+.team-grid--photos .person:nth-child(4) .person-photo-wrap::after {
   display: none;
 }
 .team-grid--photos .person:nth-child(2) .person-photo,
-.team-grid--photos .person:nth-child(3) .person-photo {
+.team-grid--photos .person:nth-child(3) .person-photo,
+.team-grid--photos .person:nth-child(4) .person-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -86,10 +88,6 @@
 }
 
 /* Remaining portraits keep their individual bust framing. */
-.team-grid--photos .person:nth-child(4) .person-photo {
-  transform: scale(1.44) translateY(4%);
-  transform-origin: center 24%;
-}
 .team-grid--photos .person:nth-child(5) .person-photo {
   transform: scale(1.08) translateY(0);
   transform-origin: center 28%;
