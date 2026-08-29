@@ -87,10 +87,10 @@
   -webkit-filter: grayscale(100%) contrast(1.01) brightness(1.02) !important;
 }
 
-/* Bariak: a subtle contrast lift only. */
+/* Bariak: stronger contrast, preserving the approved framing. */
 .team-grid--photos .person:nth-child(4) .person-photo {
-  filter: grayscale(100%) contrast(1.08) brightness(1.01) !important;
-  -webkit-filter: grayscale(100%) contrast(1.08) brightness(1.01) !important;
+  filter: grayscale(100%) contrast(1.30) brightness(1.01) !important;
+  -webkit-filter: grayscale(100%) contrast(1.30) brightness(1.01) !important;
 }
 
 /* Martin keeps his existing bust framing. */
@@ -119,10 +119,10 @@
   -webkit-filter: grayscale(100%) saturate(0%) contrast(1) brightness(1.01) !important;
 }
 
-/* Keep Bariak's subtle contrast lift also on hover. */
+/* Keep Bariak's stronger contrast also on hover. */
 .team-grid--photos .person:nth-child(4):hover .person-photo {
-  filter: grayscale(100%) contrast(1.08) brightness(1.01) !important;
-  -webkit-filter: grayscale(100%) contrast(1.08) brightness(1.01) !important;
+  filter: grayscale(100%) contrast(1.30) brightness(1.01) !important;
+  -webkit-filter: grayscale(100%) contrast(1.30) brightness(1.01) !important;
 }
 
 /* Keep Urban's white-background treatment also on hover. */
