@@ -208,6 +208,7 @@ h3 { font-size:1.45rem; line-height:1.15; letter-spacing:-.035em; }
 .feature-item.is-link::after { content:"↗"; position:absolute; top:16px; right:16px; width:26px; height:26px; border-radius:50%; display:flex; align-items:center; justify-content:center; background:var(--accent-soft); color:var(--accent-deep); font-size:.85rem; transition:transform .18s ease, background .18s ease, color .18s ease; }
 .feature-item.is-link:hover { background:var(--accent-soft); border-color:var(--accent); transform:translateY(-3px); box-shadow:0 18px 50px rgba(36,95,118,.12); }
 .feature-item.is-link:hover::after { background:var(--accent); color:#fff; transform:translate(2px,-2px); }
+.feature-item.is-link.is-internal::after { content:"→"; }
 
 .team-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
 .person { min-height:250px; border:1px solid var(--line); background:var(--surface); border-radius:var(--radius); padding:28px; display:flex; flex-direction:column; justify-content:flex-end; position:relative; overflow:hidden; }
