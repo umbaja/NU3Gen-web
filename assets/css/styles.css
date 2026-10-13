@@ -169,6 +169,35 @@ h3 { font-size:1.45rem; line-height:1.15; letter-spacing:-.035em; }
 .card.featured .text-link:hover { color:white; }
 .card.featured::after { border-color:rgba(255,255,255,.08); }
 
+.card.allergen-card {
+  background:linear-gradient(145deg,#fffdf8 0%,#f4f9fc 62%,#edf5f8 100%);
+  border-color:#e7d39d;
+}
+.card.allergen-card::before {
+  background:linear-gradient(90deg,#173e68 0 42%,#e8a82b 42% 72%,#2b7a68 72% 100%);
+}
+.card.allergen-card::after {
+  border-color:rgba(232,168,43,.11);
+}
+.card.allergen-card .tag { margin-bottom:18px; color:#76571a; border-color:#ecd9a5; background:#fff6dc; }
+.allergen-visual {
+  display:flex; align-items:flex-end; justify-content:space-between; gap:20px;
+  min-height:70px; margin:0 0 22px; padding:9px 13px 9px 8px;
+  border:1px solid rgba(23,62,104,.10); border-radius:16px;
+  background:rgba(255,255,255,.72);
+}
+.allergen-visual svg { width:120px; height:64px; overflow:visible; }
+.dna-strand,.dna-rung { fill:none; stroke-linecap:round; stroke-linejoin:round; }
+.dna-strand { stroke-width:4; }
+.dna-strand-a { stroke:#173e68; }
+.dna-strand-b { stroke:#3888b0; }
+.dna-rung { stroke:#8aa8b0; stroke-width:2.4; opacity:.8; }
+.risk-meter { display:flex; align-items:flex-end; gap:5px; height:48px; padding-bottom:4px; }
+.risk-meter span { display:block; width:8px; border-radius:6px 6px 2px 2px; }
+.risk-meter span:nth-child(1) { height:18px; background:#2b7a68; }
+.risk-meter span:nth-child(2) { height:31px; background:#e8a82b; }
+.risk-meter span:nth-child(3) { height:44px; background:#c35b3d; }
+
 .metric-strip { display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:rgba(255,255,255,.38); }
 .metric { padding:32px 24px; border-right:1px solid var(--line); }
 .metric:last-child { border-right:none; }
@@ -410,6 +439,9 @@ h1 { color:var(--brand-ink); }
 .card.featured {
   background:linear-gradient(145deg,#2d647f 0%,#315d70 54%,#596a70 100%);
   border-color:transparent;
+}
+.card.allergen-card::before {
+  background:linear-gradient(90deg,#173e68 0 42%,#e8a82b 42% 72%,#2b7a68 72% 100%);
 }
 
 .metric-strip { border-radius:20px; overflow:hidden; border:1px solid var(--line); background:#fff; }
